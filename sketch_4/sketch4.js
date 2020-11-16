@@ -1,14 +1,17 @@
+
 let img;
 
 function preload() {
-	img = loadImage('pics/joji.png');
+	img = loadImage('joji.png');
 }
 
 function setup() {
-	createCanvas(1000,1000);
+	createCanvas(1200,1200);
 
 }
 
 function draw() {
-	background(0);
+	background(220);
+	image(img, 0, 0)
+	noLoop();
 }
